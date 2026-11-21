@@ -874,6 +874,7 @@
     $('logoutBtn').addEventListener('click', signOut);
     $('editModal').addEventListener('click', (e) => { if (e.target.id === 'editModal') $('editModal').classList.add('hidden'); });
 
+    document.querySelectorAll('[data-credit]').forEach((el) => { el.textContent = '@' + (CFG.CREDIT_NAME || 'EcoNadu'); });
     setupBeeDodge();
     if (state.session) enterApp();
     else $('login').classList.remove('hidden');

@@ -279,3 +279,11 @@ h1,h2,.h2,.hero-text h2{font-weight:700}
 .caption{font-weight:500;color:#101D1A}
 .w-grid small,.stats small,.badge small{color:#34463F;font-weight:500}
 .bee-in{transition:transform .3s cubic-bezier(.2,.8,.2,1)}
+
+/* ---------- Watermark (never blocks taps) ---------- */
+.watermark{
+  position:fixed;left:50%;top:50%;transform:translate(-50%,-50%) rotate(-28deg);
+  white-space:nowrap;pointer-events:none;z-index:11;
+  font-family:'Cormorant Garamond',serif;font-size:30px;font-weight:700;letter-spacing:.06em;
+  color:var(--ink);opacity:.06;user-select:none;
+}

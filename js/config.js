@@ -9,6 +9,10 @@ window.ECONADU_CONFIG = {
   // Leave as [] to keep everything on this device.
   GUN_PEERS: [],
 
+  // Watermark credit shown across the app
+  CREDIT_NAME: 'madhantr0',
+  CREDIT_URL: 'https://github.com/madhantr0',
+
   // Require phone motion (liveness) between the two shots. Set false only for desktop testing.
   REQUIRE_MOTION: true,
 
