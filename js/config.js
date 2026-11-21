@@ -3,7 +3,7 @@
    ========================================================== */
 window.ECONADU_CONFIG = {
   // Google sign-in: paste your OAuth Web Client ID here (see README.md)
-  GOOGLE_CLIENT_ID: '',
+  GOOGLE_CLIENT_ID: '40671811963-p1fq0en5fd63cvrpu1hrapfjb9kg1s3p.apps.googleusercontent.com',
 
   // Optional: sync posts between devices through Gun.js relays.
   // Leave as [] to keep everything on this device.
